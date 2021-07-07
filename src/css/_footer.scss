@@ -1,0 +1,43 @@
+
+  .footer {
+    width: 100%;
+    min-height: 60px;
+    background: linear-gradient(90deg, #7e9c7b, #77c7b3);
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    max-width: 1440px;
+    margin: 0 auto; 
+  }
+  
+  .footer-container a {
+    text-decoration: none;
+    transition: .3s;
+    color: yellow;
+  }
+  
+  .footer-container a:hover {
+   font-size: 22px;
+  }
+  
+  .github {
+    position: relative;
+    padding-left: 50px;
+  }
+  
+  .github::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/github.svg);
+    background-size: cover;
+  }

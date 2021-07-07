@@ -1,0 +1,114 @@
+
+  .search {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 100%;
+    color: rgb(33, 37, 41);
+    height: 45px;
+  }
+  
+  .search .search-input {
+    width: calc(100% - 90px);
+    max-width: 1350px;
+  }
+  
+  .search-input {
+    background-size: 34px;
+    background-position: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 212, 218);
+    color: rgb(123, 138, 139);
+    cursor: text;
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    height: 45px;
+    padding: 8px 15px;
+    padding-left: 65px;
+    padding-right: 150px;
+    border-radius: 15px;
+    background: lavender;
+    background-image: url(../img/search.svg);
+     background-repeat: no-repeat;
+  }
+  
+  .search-input:focus {
+    outline: 0;
+  }
+  
+  .search-btn {
+    background-color: darkcyan;;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    height: 45px;
+    padding: 8px 15px;
+    width: 90px;
+    color: yellow;
+    margin-left: 5px;
+  }
+
+  .search-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .search-btn:active,
+  .search-btn:focus {
+    outline: 0;
+    border: 0;
+  }
+  
+  .search-tia {
+    position: absolute;
+    width: 48px;
+    height: 28px;
+    background-image: url(/img/keyboard.png);
+    right: 170px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s;
+  }
+  
+  .search-tia:hover {
+    opacity: 1;
+  }
+
+  .micro-button {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-image: url(/img/micro.png);
+    right: 125px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s;
+  }
+
+.micro-button:hover {
+    opacity: 1;
+  }
+  
+  .search-clear {
+    position: absolute;
+    width: 48px;
+    height: 28px;
+    background-image: url(/img/clear.svg);
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 220px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s;
+  }
+  
+  .search-clear:hover {
+    opacity: 1;
+  }

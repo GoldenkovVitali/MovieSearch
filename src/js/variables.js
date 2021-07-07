@@ -1,0 +1,9 @@
+export const latinReg = /[a-z]/gi;
+export const cyrillicReg = /[а-я]/gi;
+export const input = document.querySelector('.search-input');
+export const button = document.querySelector('.search-btn');
+export const clear = document.querySelector('.search-clear');
+export const keyboard = document.getElementById('keyboard');
+export const form = document.getElementById('form');
+export const key = 'e7d56ac8';
+export const swiperButton = document.querySelector('.swiper-button-prev');

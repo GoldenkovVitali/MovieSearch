@@ -1,0 +1,90 @@
+.container-keyboard {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    width: 100%;
+    top: 150px;
+    margin: 0 auto;
+    }
+  
+    .active {
+      display: none;
+    }
+     
+    .element-wrapper {
+      margin: 0 auto; 
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 5%;
+      width: 100%;
+      text-align: center;
+      }
+     
+      .line {
+        display: flex;
+      }
+      .element {
+        width: 8%;
+        height: 3rem;
+        background: black;
+        color: white;
+        margin: 0.07rem;
+        -webkit-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        line-height: 3rem;
+        font-size: 1.3rem;
+        cursor: pointer;
+      }
+      
+      .special {
+        width: 20%;
+        height: 3rem;
+        background: black;
+        color: white;
+        margin: 0.07rem;
+        -webkit-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        line-height: 3rem;
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+        cursor: pointer;
+      }
+      .special-space {
+        width: 60%;
+        height: 3rem;
+        background: black;
+        color: white;
+        margin: 0.07rem;
+        -webkit-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        line-height: 3rem;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        cursor: pointer;
+      }
+      .element:active {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        background: gray;
+      }
+      .special:active  {
+      transform: scale(0.85);
+      -webkit-transform: scale(0.85);
+      background: gray;
+      }
+      .special-space:active{
+      transform: scale(0.95);
+      -webkit-transform: scale(0.95);
+      background: gray;
+      }
+      .element-active_keyboard {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      background: gray;
+      }
+      
+      .active {
+        background: gray;
+      }     
+    

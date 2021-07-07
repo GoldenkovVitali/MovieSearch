@@ -1,0 +1,151 @@
+.tooltip:hover:after {
+    content: attr(data-name);
+    position: absolute;
+    padding: 7px 12px;
+    width: 80px;
+    top: 50px;
+    left: -28px;
+    background: #343944;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;  
+    font-size: 16px;
+  }
+  
+  .tooltip:hover:before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 0; 
+    height: 0; 
+    border: 15px solid transparent;
+    border-bottom-color: #232323;  
+  }
+  
+  .info {
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .swiper-outer {
+    position: relative;
+  }
+  
+  .card {
+    width: 300px !important;
+    max-width: 300px;
+    border: 0;
+    margin: 10px 0px;  
+    overflow: hidden;
+    
+  }
+  .center {
+    margin: 0 auto !important;
+  }
+
+  .card-header {
+    display: block;
+    height: 43px;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: cadetblue;
+    transition: .3s;
+  }
+  
+  .card-header:hover {
+    font-size: 28px;
+  }
+
+  .card-body {
+    height: 445px;
+    background-size: cover;
+    width: 300px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: .2s;
+  }
+  .card-body:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .card-footer {
+    background-color: cadetblue;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 5px;
+  }
+  
+  .card-imbd {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card-imbd span {
+    position: relative;
+    padding-left: 10px;
+  }
+  
+  .card-imbd span::before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/star.svg);
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    left: -25px;
+  }
+  
+  .swiper-container {
+    height: 669px;
+  }
+  
+  .swiper-wrapper {
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+  .button.swiper-button-next {
+    top: 43%;
+  }
+
+  .button.swiper-button-prev {
+    top: 43%;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #d62c1a;
+  }
+   .button.swiper-button-next {
+    right: -30px;
+  }
+
+  .button.swiper-button-prev {
+    left: -30px;
+  }
+  .swiper-button-prev.swiper-button-disabled{
+    opacity: 100 !important;
+    cursor: pointer !important;
+    pointer-events: inherit !important;
+  }
